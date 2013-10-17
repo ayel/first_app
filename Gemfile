@@ -8,7 +8,7 @@ gem 'rails', '4.0.0'
 #  gem 'sqlite3'
 #end
 
-gem 'sqlite3-ruby'
+gem 'sqlite3'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
