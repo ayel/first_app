@@ -8,7 +8,7 @@ gem 'rails', '4.0.0'
 #  gem 'sqlite3'
 #end
 
-gem 'sqlite3-ruby', require: :sqlite3
+gem 'sqlite3-ruby'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -36,10 +36,10 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-group :production do
-  gem 'pg', '0.15.1'
-  gem 'rails_12factor', '0.0.2'
-end
+#group :production do
+#  gem 'pg', '0.15.1'
+#  gem 'rails_12factor', '0.0.2'
+#end
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
